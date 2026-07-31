@@ -11904,7 +11904,7 @@ html {
 .navbar-logo {
     width: 200px;
     height: auto;
-    margin-left: -5000px;
+    margin-left: -40px;
     margin-top: -10px;
     margin-bottom: -25px;
 }
@@ -11927,13 +11927,13 @@ html {
 @media (max-width: 576px) {
     .navbar {
         height: auto;
-        padding: 10px;
+        padding: 1000px;
     }
 
     .navbar-logo {
         width: 120px;
         height: auto;
-        margin: 0;
+        margin: -1000;
         display: block;
     }
 
