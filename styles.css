@@ -11933,7 +11933,7 @@ html {
     .navbar-logo {
         width: 120px;
         height: auto;
-        margin: 0;
+        margin-left: -200px;
         display: block;
     }
 
