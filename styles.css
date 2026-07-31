@@ -11878,43 +11878,30 @@ html {
         width:220px;
     }
 }
-.project2-photo{
-    width:170px;
-    height:170px;
-    max-width:100%;
-    border-radius:50%;
-    object-fit:cover;
-    border:6px solid #fff;
-    box-shadow:0 12px 30px rgba(0,0,0,.25);
-    transition:.35s;
-    display:block;
-    margin:0 auto;
-}
 
-.project2-photo:hover{
-    transform:translateY(-10px) scale(1.05);
-}
+@media (max-width: 576px) {
 
-/* Tablet */
-@media (max-width:768px){
     .project2-photo{
-        width:120px;
-        height:120px;
-    }
-}
-
-/* Mobile */
-@media (max-width:576px){
-    .project2-photo{
-        width:90px;
-        height:90px;
+        width: 80px !important;
+        height: 80px !important;
+        max-width: 80px !important;
+        max-height: 80px !important;
+        display: block;
+        margin: 0 auto;
     }
 
-    h6{
+    .row.justify-content-center .col-10{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .row.justify-content-center h6{
         font-size:14px;
     }
 
-    small{
+    .row.justify-content-center small{
         font-size:12px;
     }
 }
