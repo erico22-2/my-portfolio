@@ -11895,38 +11895,59 @@ html {
 }
 
 
+/* Desktop */
+.navbar {
+    height: 80px;
+    overflow: visible;
+}
+
 .navbar-logo {
-    width: 180px;
+    width: 200px;
     height: auto;
-    margin-left: 50px;
-    display: block;
-    max-width: 100%;
+    margin-left: -40px;
+    margin-top: -10px;
+    margin-bottom: -25px;
 }
 
 /* Tablet */
 @media (max-width: 992px) {
+    .navbar {
+        height: auto;
+        padding: 10px 15px;
+    }
+
     .navbar-logo {
-        width: 160px;
-        margin-left: -10px;
-        margin-top: 0;
-        margin-bottom: 0;
+        width: 150px;
+        height: auto;
+        margin: 0;
     }
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
     .navbar-logo {
         width: 120px;
+        height: auto;
         margin: 0;
+        display: block;
     }
 
     .navbar-brand {
         padding: 0;
         margin: 0;
+        display: flex;
+        align-items: center;
     }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+
 
 .profile-info {
     margin-top: 20px;
