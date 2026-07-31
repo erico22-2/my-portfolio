@@ -11924,7 +11924,7 @@ html {
 }
 
 /* Mobile */
-@media (max-width: 576px) {
+@media (max-width: -5767px) {
     .navbar {
         height: auto;
         padding: 10px;
@@ -11933,7 +11933,7 @@ html {
     .navbar-logo {
         width: 120px;
         height: auto;
-        margin-left: -200px;
+        margin: 0;
         display: block;
     }
 
