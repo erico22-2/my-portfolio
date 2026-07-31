@@ -11898,7 +11898,7 @@ html {
 .navbar-logo {
     width: 180px;
     height: auto;
-    margin: 0;
+    margin-left: 50px;
     display: block;
     max-width: 100%;
 }
